@@ -1,0 +1,45 @@
+header{
+    color: rgb(10, 14, 66);
+    background-color: rgb(75, 177, 224);
+    text-align: center;
+    font-size: larger;
+    text-shadow: 30px;
+    padding: 20px;
+    border: 2px solid black;
+}
+h3{
+    text-align: center;
+
+}
+body{
+    font-size: larger;
+    text-align: center;
+    
+}
+.gifpic{
+    display: grid;
+    justify-content: space-around;
+}
+    
+@media (max-width:320){
+    .gifpic{
+            display: grid;
+            justify-content:space-around;
+           }
+}
+.gifpic2{
+    display: grid;
+    justify-content: space-around;
+}
+footer{
+    background-color: aqua;
+    padding: 15px;
+    border: 2px solid black;
+
+}
+@media (max-width:768){
+    .body{
+        font-size:x-small;
+    }
+}
+
